@@ -1,0 +1,12 @@
+{
+  "machines": [
+    {"id":1,"name":"Boiler 1","risk_score":25},
+    {"id":2,"name":"Conveyor A","risk_score":65},
+    {"id":3,"name":"Compressor","risk_score":92},
+    {"id":4,"name":"Mixer","risk_score":48}
+  ],
+  "alerts": [
+    {"id":101,"message":"Compressor overheat","risk_score":92,"timestamp":"2025-09-16T08:30:00Z"},
+    {"id":102,"message":"Vibration spike on Conveyor A","risk_score":65,"timestamp":"2025-09-16T08:28:00Z"}
+  ]
+}
